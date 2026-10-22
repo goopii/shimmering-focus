@@ -1,3 +1,31 @@
+# obsidian-rice-theme
+
+Malte's custom theme, based on Shimmering Focus 5.81.0 (upstream commit
+`c862131`). The upstream license and attribution are preserved below.
+
+Indented and list headings in the editor receive
+the same heading level labels, background, border, and letter spacing as standalone
+headings. Labels remain visible while editing, and empty headings retain their
+labels and backgrounds. Ordinary indented text and code blocks keep their original styling.
+The existing settings for hiding heading backgrounds and Live Preview labels
+still apply. The Style Settings ID stays `shimmering-focus` to retain existing
+preferences.
+
+Edit the CSS under `source/`, then run `npm ci` once and `npm run build` after
+each change. Copy or symlink this folder into your vault's `.obsidian/themes/`
+as `obsidian-rice-theme`, then select it in Obsidian's Appearance settings.
+
+For empty list headings, also copy or symlink `plugin/` into
+`.obsidian/plugins/obsidian-rice-theme-helper` and enable **Rice Theme Helper**.
+Obsidian hides the heading markup of these lines completely; the helper adds only
+an editor decoration containing the level for CSS to use, without modifying notes.
+
+With Padua open and the helper enabled, run `python scripts/verify-headings.py`
+to check heading labels/backgrounds against Obsidian's actual parser in an
+isolated in-memory editor.
+
+The documentation below is the original upstream README.
+
 # Shimmering Focus ⟡ <!-- rumdl-disable-line MD063 -->
 ![Downloads in Obsidian](https://img.shields.io/badge/downloads-333292-6E4E9B?style=plastic&logo=obsidian&color=%23483699)
 ![GitHub stars](https://img.shields.io/github/stars/chrisgrieser/shimmering-focus?style=plastic&label=%E2%98%85%20Stars)

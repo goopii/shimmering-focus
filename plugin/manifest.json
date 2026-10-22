@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-rice-theme-helper",
+	"name": "Rice Theme Helper",
+	"version": "1.0.0",
+	"minAppVersion": "1.13.0",
+	"description": "Expose empty list heading levels to the Rice theme in Live Preview.",
+	"author": "Malte",
+	"isDesktopOnly": false
+}

@@ -1,4 +1,9 @@
 {
+	"name": "obsidian-rice-theme",
+	"private": true,
+	"scripts": {
+		"build": "node scripts/build.mjs"
+	},
 	"devDependencies": {
 		"lightningcss-cli": "^1.26.0",
 		"doiuse": "^6.0.5"
